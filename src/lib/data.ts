@@ -78,7 +78,7 @@ export const mechanicalProjects = [
         name: "Bernoulli's Car",
         description: "Designed and built a model car that demonstrates Bernoulli's principle for propulsion. This project involved concept design, aerodynamic analysis, and fabrication of the prototype to achieve forward motion purely based on air pressure differentials.",
         tags: ["Mechanical Design", "SolidWorks" ,"Aerodynamics", "Prototyping", "Physics"],
-        image: "https://placehold.co/600x400.png",
+        image: "/bernoullicar.png",
         link: "#",
     }
 ]
