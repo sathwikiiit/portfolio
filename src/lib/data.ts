@@ -1,6 +1,6 @@
 import { Code, GitBranch, Database, Bot, Cpu, Wrench, Wind } from "lucide-react";
 import type { ComponentType } from "react";
-
+const basepath="/portfolio"
 export const profile = {
   name: "Sathwik Vadla",
   initials: "SV",
@@ -9,7 +9,7 @@ export const profile = {
   email: "sathwik.sns@gmail.com",
   linkedin: "https://www.linkedin.com/in/sathwik-vadla-s311",
   github: "https://github.com/sathwikiiit",
-  avatar: "/profile.jpg",
+  avatar: `${basepath}/profile.jpg`,
   about: "Hello there! I'm a passionate developer dedicated to building innovative solutions through code. I thrive on collaboration and am always eager to connect with fellow enthusiasts, recruiters, or anyone curious about my work."
 };
 
@@ -40,7 +40,7 @@ export const projects = [
         name: "LegalBot",
         description: "A web app to streamline legal workflows. Features document generation from templates and case management for legal professionals.",
         tags: ["Java", "AI", "Web App", "Automation"],
-        image: "/legalbot.png",
+        image: `${basepath}/legalbot.png`,
         link: "https://github.com/sathwikiiit/Legalbot_v2",
     },
     {
@@ -54,14 +54,14 @@ export const projects = [
         name: "ToolBunch",
         description: "A versatile Android toolkit for land and legal computations. Features a user-friendly interface to simplify complex calculations.",
         tags: ["Kotlin", "Android", "Mobile App"],
-        image: "/toolbunch.png",
+        image: `${basepath}/toolbunch.png`,
         link: "https://github.com/sathwikiiit/ToolBunch",
     },
     {
         name: "Audio-Based Medical Diagnosis",
         description: "A pre-trained VGG16 model fine-tuned to classify audio data from the ICBHE database for medical diagnosis.",
         tags: ["Python", "TensorFlow", "CNN", "AI"],
-        image: "/samsungprism.png",
+        image: `${basepath}/samsungprism.png`,
         link: "https://github.com/sathwikiiit/Audio-Based-Medical-Diagnosis",
     },
 ];
@@ -71,14 +71,14 @@ export const mechanicalProjects = [
         name: "Scramjet Combustion Chamber Simulation",
         description: "Modeled the combustion chamber of a scramjet engine using ANSYS Fluent. Conducted CFD simulations to analyze combustion characteristics, validated a single-step hydrogen combustion model, and explored multistep mechanisms.",
         tags: ["CFD", "ANSYS Fluent", "Aerospace", "Combustion"],
-        image: "/scramjet.png",
+        image: `${basepath}/scramjet.png`,
         link: "#",
     },
     {
         name: "Bernoulli's Car",
         description: "Designed and built a model car that demonstrates Bernoulli's principle for propulsion. This project involved concept design, aerodynamic analysis, and fabrication of the prototype to achieve forward motion purely based on air pressure differentials.",
         tags: ["Mechanical Design", "SolidWorks" ,"Aerodynamics", "Prototyping", "Physics"],
-        image: "/bernoullicar.png",
+        image: `${basepath}/bernoullicar.png`,
         link: "#",
     }
 ]
