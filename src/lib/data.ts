@@ -47,7 +47,7 @@ export const projects = [
         name: "Sansei E-commerce Platform",
         description: "A full-stack e-commerce starter built with Angular and Spring Boot. Includes product browsing, cart, and basic checkout.",
         tags: ["Angular", "Spring Boot", "Java", "E-commerce"],
-        image: "/sansei.png",
+        image: `${basepath}/sansei.png`,
         link: "https://github.com/sathwikiiit/Sansei-v2",
     },
     {
