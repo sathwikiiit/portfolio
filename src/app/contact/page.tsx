@@ -10,7 +10,7 @@ export default function ContactPage() {
             <SectionTitle>Get In Touch</SectionTitle>
             <div className="max-w-xl mx-auto text-center">
                 <p className="text-lg text-muted-foreground mb-8">
-                    I'm currently open to new opportunities and collaborations. My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                    I&apos;m currently open to new opportunities and collaborations. My inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                     <div className="flex items-center gap-3">
