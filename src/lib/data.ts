@@ -22,6 +22,12 @@ export const navigation = [
 
 export const experience = [
     {
+        role: "Associate Software Engineer",
+        company: "Alacriti Infotech Systems Pvt. Ltd.",
+        period: "Oct, 2025 - Present",
+        description: "Contributed to backend development of enterprise fintech systems supporting digital banking platforms. Implemented features for ACH payment workflows using Java and Spring Boot, while working with PostgreSQL databases to manage financial transaction and workflow data. Investigated and resolved issues in development-stage code during feature implementation and integration testing, and collaborated with cross-functional engineering teams to support the delivery of reliable financial software components."
+    },
+    {
         role: "Samsung Prism Virtual Intern",
         company: "Samsung R&D",
         period: "2021",
