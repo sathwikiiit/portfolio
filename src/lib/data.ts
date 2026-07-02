@@ -1,4 +1,4 @@
-import { Code, GitBranch, Database, Bot, Cpu, Wrench, Wind } from "lucide-react";
+import { Code, GitBranch, Database, Bot, Cpu, Wrench, Wind, Cloud, Terminal, BarChart3, Calculator, LineChart, Smartphone, Workflow } from "lucide-react";
 import type { ComponentType } from "react";
 const basepath="/portfolio"
 export const profile = {
@@ -99,23 +99,51 @@ type Skills = {
 }
 
 export const skills: Skills = {
-    "Languages & Frameworks": [
-        { name: "Java (Spring Boot)", icon: Code },
-        { name: "Python", icon: Code },
-        { name: "Kotlin", icon: Code },
-        { name: "Angular", icon: Code },
-        { name: "React", icon: Code },
-    ],
-    "Databases & Tools": [
-        { name: "MySQL", icon: Database },
-        { name: "Git & Version Control", icon: GitBranch },
-        { name: "Docker", icon: Wrench },
-    ],
-    "AI & Mechanical": [
-        { name: "Machine Learning", icon: Bot },
-        { name: "Deep Learning (CNNs)", icon: Cpu },
-        { name: "CFD (ANSYS)", icon: Wind },
-    ],
+  "Programming Languages": [
+    { name: "Java", icon: Code },
+    { name: "Kotlin", icon: Code },
+    { name: "Python", icon: Code },
+    { name: "JavaScript", icon: Code },
+  ],
+
+  "Frameworks & Backend": [
+    { name: "Spring Boot", icon: Code },
+    { name: "REST APIs", icon: Code },
+    { name: "Microservices", icon: Code },
+    { name: "Angular", icon: Code },
+    { name: "React", icon: Code },
+  ],
+
+  "Databases": [
+    { name: "PostgreSQL", icon: Database },
+    { name: "MySQL", icon: Database },
+    { name: "SQLite", icon: Database },
+    { name: "Redis", icon: Database },
+  ],
+
+  "Cloud & DevOps": [
+    { name: "AWS", icon: Cloud },
+    { name: "Docker", icon: Wrench },
+    { name: "Git & Version Control", icon: GitBranch },
+    { name: "Linux", icon: Terminal },
+    { name: "Maven", icon: Wrench },
+    { name: "Apache Kafka", icon: Workflow },
+  ],
+
+  "Data Science & AI": [
+    { name: "Machine Learning", icon: Bot },
+    { name: "Deep Learning (CNNs)", icon: Cpu },
+    { name: "TensorFlow", icon: Cpu },
+    { name: "Scikit-learn", icon: Bot },
+    { name: "Pandas", icon: BarChart3 },
+    { name: "NumPy", icon: Calculator },
+    { name: "Exploratory Data Analysis (EDA)", icon: LineChart },
+  ],
+
+  "Engineering Tools": [
+    { name: "CFD (ANSYS)", icon: Wind },
+    { name: "Android Studio", icon: Smartphone },
+  ],
 };
 
 export const education = [
